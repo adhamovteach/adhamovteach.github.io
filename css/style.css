@@ -13,6 +13,10 @@
     justify-content: center;
    }
 
+   span{
+       color: rgb(248, 29, 29);
+   }
+
 body {
     background : #fcb600 !important;
 }
