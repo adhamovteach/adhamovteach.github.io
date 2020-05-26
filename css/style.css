@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+   h1 {
+    font-family: 'Chelsea Market' !important; 
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+body {
+    background : #fcb600 !important;
+}
+
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+.navbar-custom {
+    background-color: #ffb151;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Chelsea Market' !important; 
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
