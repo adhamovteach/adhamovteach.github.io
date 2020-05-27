@@ -78,4 +78,6 @@ ul.hr {
         margin-top: 6px; 
     } 
 }
-
+#myCanvas{
+        width: 80%;
+}
